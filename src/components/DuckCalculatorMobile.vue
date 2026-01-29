@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { ref } from 'vue'
-import { showDialog } from 'vant'
 
 const BUCKET_WEIGHT = 4
 const FRAME_WEIGHT = 1
