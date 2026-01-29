@@ -105,11 +105,7 @@ const handleCalculate = async () => {
   } else {
     seasoningAmounts.value = null
   }
-  showDialog({
-    title: '提示',
-    message: '计算完成',
-    confirmButtonText: '知道了',
-  })
+  alert("计算完成")
 }
 
 const handleReset = () => {
