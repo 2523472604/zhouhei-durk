@@ -160,14 +160,7 @@ const potRules = [
 </script>
 
 <template>
-  <van-watermark 
-    content="李家宝" 
-    :opacity="0.2" 
-    :rotate="-22" 
-    :gap-x="120" 
-    :gap-y="120"
-  >
-    <div class="mobile-calculator">
+  <div class="mobile-calculator">
       <van-nav-bar title="🦆 鸭货计算器" fixed placeholder />
       
       <div class="content-wrapper">
@@ -468,7 +461,6 @@ const potRules = [
       <van-empty v-else description="请输入数据开始计算" />
     </div>
   </div>
-  </van-watermark>
 </template>
 
 <style scoped>
